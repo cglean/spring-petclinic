@@ -1,0 +1,10 @@
+---
+applications:
+- name: petclinic
+  host: petclinic-cglean
+  instances: 1
+  path: target/petclinic.war
+#  buildpack: java_buildpack
+  services: []
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
