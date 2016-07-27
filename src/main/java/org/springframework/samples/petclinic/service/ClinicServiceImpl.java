@@ -39,6 +39,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @author Michael Isvy
  */
 @Service
+//Adding a comment to test CI - CGLean
 public class ClinicServiceImpl implements ClinicService {
 
     private PetRepository petRepository;
