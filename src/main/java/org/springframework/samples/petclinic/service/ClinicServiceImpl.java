@@ -39,7 +39,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @author Michael Isvy
  */
 @Service
-//Adding a comment to test CI - CGLean Petclinic - try777
+
 public class ClinicServiceImpl implements ClinicService {
 
     private PetRepository petRepository;
@@ -58,6 +58,7 @@ public class ClinicServiceImpl implements ClinicService {
     @Override
     @Transactional(readOnly = true)
     public Collection<PetType> findPetTypes() throws DataAccessException {
+		System.out.println("This is a comment");
         return petRepository.findPetTypes();
     }
 
