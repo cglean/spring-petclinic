@@ -58,7 +58,7 @@ public class ClinicServiceImpl implements ClinicService {
     @Override
     @Transactional(readOnly = true)
     public Collection<PetType> findPetTypes() throws DataAccessException {
-		System.out.println("This is a comment to test CI test");
+		System.out.println("This is a comment to test CI");
         return petRepository.findPetTypes();
     }
 
