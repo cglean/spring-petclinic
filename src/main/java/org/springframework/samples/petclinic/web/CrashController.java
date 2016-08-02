@@ -18,7 +18,7 @@ package org.springframework.samples.petclinic.web;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-//Adding a comment to test CICD
+//Adding a comment to test CICD - test 2
 /**
  * Controller used to showcase what happens when an exception is thrown
  *
